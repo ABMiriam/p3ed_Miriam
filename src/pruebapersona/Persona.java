@@ -38,7 +38,7 @@ public class Persona {
         this.apellidos = apellidos;
         this.edad = edad;
     }
-
+//estos son todos los getters y setters para todos los atributos de la clase
     public String getDni() {
         return dni;
     }
