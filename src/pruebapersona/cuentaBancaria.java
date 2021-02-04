@@ -40,7 +40,8 @@ public class cuentaBancaria {
             System.out.println ("ERROR. El titular debe ser mayor de edad");
         }
         
-    }    
+    }
+//este es el metodo que imprime todos los datos    
     void imprimicion (){
    
         System.out.println ("El titular de la cuenta es: "+titular);
@@ -48,6 +49,8 @@ public class cuentaBancaria {
         System.out.println ("Su saldo es de: "+saldo+"€");
         if (tipoCuenta.isEmpty()==false){System.out.println (tipoCuenta);}
     }
+
+//y este metodo imprime todos los movimientos 
     void imprimicionMovimientos(){
         for (int i=0; i<20;i++){
             if (movimientos[i]!=0.0){
@@ -55,6 +58,8 @@ public class cuentaBancaria {
             }
         }
     }
+
+//este metodo solo imprime el saldo de la cuenta
     void imprSaldo (){
         System.out.println ("Su saldo es: "+saldo+"€");
     }
